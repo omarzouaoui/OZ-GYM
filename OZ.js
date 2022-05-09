@@ -1,0 +1,126 @@
+//design
+//home
+$(a).mouseenter(function(){
+    $(a).css('color','green')
+    $(a).css('font-weight','bold')
+})
+$(a).mouseleave(function(){
+    $(a).css('color','white')
+    $(a).css('font-weight','normal')
+})
+//training
+$(b).mouseenter(function(){
+    $(b).css('color','green')
+    $(b).css('font-weight','bold')
+})
+$(b).mouseleave(function(){
+    $(b).css('color','white')
+    $(b).css('font-weight','normal')
+})
+//blogs
+$(c).mouseenter(function(){
+    $(c).css('color','green')
+    $(c).css('font-weight','bold')
+})
+$(c).mouseleave(function(){
+    $(c).css('color','white')
+    $(c).css('font-weight','normal')
+})
+//contact us
+$(d).mouseenter(function(){
+    $(d).css('color','green')
+    $(d).css('font-weight','bold')
+})
+$(d).mouseleave(function(){
+    $(d).css('color','white')
+    $(d).css('font-weight','normal')
+})
+//fitness
+$(o).mouseenter(function(){
+    $(o).css('color','blue')
+    $(o).css('font-weight','bold')
+})
+$(o).mouseleave(function(){
+    $(o).css('color','white')
+    $(o).css('font-weight','normal')
+})
+//boxe
+$(y).mouseenter(function(){
+    $(y).css('color','blue')
+    $(y).css('font-weight','bold')
+})
+$(y).mouseleave(function(){
+    $(y).css('color','white')
+    $(y).css('font-weight','normal')
+})
+//cardio
+$(z).mouseenter(function(){
+    $(z).css('color','blue')
+    $(z).css('font-weight','bold')
+})
+$(z).mouseleave(function(){
+    $(z).css('color','white')
+    $(z).css('font-weight','normal')
+})
+//click & dbl click
+//fitness
+$(o).click(function(){
+    $(y).hide(1500)
+    $(z).hide(1500)
+    $(op).show(1600)
+})
+$(o).dblclick(function(){
+    $(y).show(1600)
+    $(z).show(1600)
+    $(op).hide(1500)
+    $(o).css('color','white')
+})
+//boxe
+$(y).click(function(){
+    $(o).hide(1500)
+    $(z).hide(1500)
+    $(yp).show(1600)
+})
+$(y).dblclick(function(){
+    $(o).show(1600)
+    $(z).show(1600)
+    $(yp).hide(1500)
+    $(y).css('color','white')
+})
+//cardio
+$(z).click(function(){
+    $(o).hide(1500)
+    $(y).hide(1500)
+    $(zp).show(1600)
+})
+$(z).dblclick(function(){
+    $(o).show(1600)
+    $(y).show(1600)
+    $(zp).hide(1500)
+    $(z).css('color','white')
+})
+//
+$(op).mouseenter(function(){
+    $(op).css('font-weight','bold')
+    $(op).css('color','black')
+})
+$(op).mouseleave(function(){
+    $(op).css('font-weight','normal')
+})
+//
+$(yp).mouseenter(function(){
+    $(yp).css('font-weight','bold')
+    $(yp).css('color','black')
+})
+$(yp).mouseleave(function(){
+    $(yp).css('font-weight','normal')
+})
+//
+$(zp).mouseenter(function(){
+    $(zp).css('font-weight','bold')
+    $(zp).css('color','black')
+})
+$(zp).mouseleave(function(){
+    $(zp).css('font-weight','normal')
+})
+//
