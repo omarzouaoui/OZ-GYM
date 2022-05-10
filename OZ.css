@@ -166,9 +166,16 @@ article a{
     float: left;
 }
 #i3{
-    width: 100px;
-    height: 150px;
+    width: 250px;
+    height: 400px;
     float: right;
+    display: none;
+}
+#i4{
+    width: 250px;
+    height: 400px;
+    float: left;
+    display: none;
 }
 .p{
     text-align: center;
